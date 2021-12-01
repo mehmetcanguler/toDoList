@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+.toDoList{
+    font-size:60px;
+}
+.inputText {
+
+    border: 1px solid black;
+    cursor: text;
+    text-decoration: none;
+    width: 300px;
+    height: 35px;
+    outline: none;
+    border: 1px solid orange;
+    border-radius: 15px;
+    font-size: 20px;
+    vertical-align: middle;
+    color: purple;
+    box-shadow: 0 0 2px 2px orange;
+    
+}
+.AddButton{
+    border-radius: 25%;
+    border: none;
+    cursor:pointer ;
+    background-color: rgb(151, 241, 14);
+    height: 42px;
+    width: 60px;
+    outline: none;
+
+    
+}
+
+.AddButton:active{
+    background-color: blue;
+    transform: translateY(4px);
+}
+.ClearButton{
+    border-radius: 25%;
+    border: none;
+    cursor:pointer ;
+    background-color: red;
+    height: 42px;
+    width: 60px;
+   
+  
+  
+  
+}
+.ClearButton:active:active{
+    background-color: black;
+    transform: translateY(4px);
+}
+.bigClass{
+    margin-top: 80px;
+    
+}
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 30px;
+    color: purple;
+    text-transform: capitalize; 
+}
+.paragraphClass{
+    margin-top: 25px;
+
+}
